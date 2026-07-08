@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourabh Budania | Video Editor & Motion Graphics Artist</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Sourabh Budania</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="mesh-gradient"></div>
+      <canvas id="particles-canvas"></canvas>
+      <div class="mouse-glow" id="mouse-glow"></div>
+      <div class="vignette"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-main">
+        <div class="hero-text">
+          <div class="hero-badge">Motion Designer <span class="badge-sep">•</span> Video Editor <span class="badge-sep">•</span> AI Video Creator <span class="badge-sep">•</span> Visual Storyteller</div>
+          <h1 class="hero-title">
+            Videos That Turn <span class="gradient-text">Attention</span> Into Results
+          </h1>
+          <p class="hero-subtitle">I help brands, startups, and creators communicate complex ideas through motion design, video editing, and visual storytelling.</p>
+
+          <div class="social-proof">
+            <span class="proof-label">Worked With</span>
+            <div class="proof-brands">
+              <span class="proof-brand">Bluestone</span>
+              <span class="proof-brand">Duplex Media</span>
+              <span class="proof-brand">Scalar</span>
+              <span class="proof-brand">IndianVideoSchool</span>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-number" data-target="100">0</span>
+              <span class="hero-stat-label">Projects Delivered</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-number" data-target="2">0</span>
+              <span class="hero-stat-label">Years Experience</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary"><i class="fas fa-arrow-down"></i> View My Work</a>
+            <a href="#contact" class="btn btn-glass"><i class="fas fa-calendar"></i> Book a Call</a>
+          </div>
+
+          <div class="hero-social">
+            <a href="https://www.youtube.com/@Budania-Edits" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/dreamvision.mkv/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sourabh-budania/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="showcase-container">
+            <div class="laptop-mockup">
+              <div class="laptop-screen">
+                <div class="screen-content">
+                  <div class="screen-gradient"></div>
+                  <div class="play-button"><i class="fas fa-play"></i></div>
+                  <div class="screen-scene"></div>
+                </div>
+              </div>
+              <div class="laptop-base"></div>
+              <div class="laptop-notch"></div>
+              <div class="laptop-glow"></div>
+            </div>
+            <div class="floating-element float-1">
+              <div class="float-card">
+                <div class="float-card-icon"><i class="fas fa-film"></i></div>
+                <div class="float-card-text">
+                  <span class="float-card-title">Showreel 2026</span>
+                  <span class="float-card-sub">4K • 60fps</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-element float-2">
+              <div class="float-card">
+                <div class="float-card-icon"><i class="fas fa-cube"></i></div>
+                <div class="float-card-text">
+                  <span class="float-card-title">Motion Pack</span>
+                  <span class="float-card-sub">12 Presets</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-element float-3">
+              <div class="float-badge">
+                <i class="fas fa-star"></i>
+                <span>Featured</span>
+              </div>
+            </div>
+            <div class="floating-element float-4">
+              <div class="float-thumb" style="background: linear-gradient(135deg, #6c63ff, #00d4ff);">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="floating-element float-5">
+              <div class="float-thumb" style="background: linear-gradient(135deg, #ff6b9d, #6c63ff);">
+                <i class="fas fa-bolt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+      <div class="scroll-chevron"><i class="fas fa-chevron-down"></i></div>
+    </div>
+  </section>
+
+  <!-- AI Video Creator Section -->
+  <section id="ai-video" class="section ai-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">AI Video Creator</span>
+        <h2 class="section-title"><span class="gradient-text">AI-Powered</span> Videos</h2>
+        <p class="section-desc">AI-generated videos combining creative storytelling with cutting-edge artificial intelligence tools.</p>
+      </div>
+      <div class="ai-grid">
+        <div class="ai-card reveal" data-video-id="1jv0-VjCGzJ9ivu_into1P0ZUhzAWje9S" data-video-type="drive">
+          <div class="ai-thumb">
+            <div class="ai-placeholder" style="background-image: url('https://drive.google.com/thumbnail?id=1jv0-VjCGzJ9ivu_into1P0ZUhzAWje9S&sz=w600'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="ai-overlay">
+              <button class="ai-play-btn" data-video-id="1jv0-VjCGzJ9ivu_into1P0ZUhzAWje9S" data-video-type="drive"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="ai-info">
+            <span class="ai-tag">AI Generated</span>
+            <h3>AI Cinematic Short</h3>
+          </div>
+        </div>
+        <div class="ai-card reveal" data-video-id="1WpDm0konblY4RdFLM0mFyQEfygnwKrzh" data-video-type="drive">
+          <div class="ai-thumb">
+            <div class="ai-placeholder" style="background-image: url('https://drive.google.com/thumbnail?id=1WpDm0konblY4RdFLM0mFyQEfygnwKrzh&sz=w600'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="ai-overlay">
+              <button class="ai-play-btn" data-video-id="1WpDm0konblY4RdFLM0mFyQEfygnwKrzh" data-video-type="drive"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="ai-info">
+            <span class="ai-tag">AI Generated</span>
+            <h3>AI Visual Story</h3>
+          </div>
+        </div>
+        <div class="ai-card reveal" data-video-id="1FNYuUyVPK-GE8mJKxCSz5s6ibDr779ps" data-video-type="drive">
+          <div class="ai-thumb">
+            <div class="ai-placeholder" style="background-image: url('https://drive.google.com/thumbnail?id=1FNYuUyVPK-GE8mJKxCSz5s6ibDr779ps&sz=w600'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="ai-overlay">
+              <button class="ai-play-btn" data-video-id="1FNYuUyVPK-GE8mJKxCSz5s6ibDr779ps" data-video-type="drive"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="ai-info">
+            <span class="ai-tag">AI Generated</span>
+            <h3>AI Motion Reel</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Portfolio Section -->
+  <section id="work" class="section work-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+        <p class="section-desc">A curated selection of projects spanning motion design, video editing, and visual storytelling.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item portfolio-featured reveal" data-video-id="uVHYA8idwJs">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/uVHYA8idwJs/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="uVHYA8idwJs"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Shorts / Reel</span>
+            <h3>Explanatory Videos</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="z-pYX50ZBqE">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/z-pYX50ZBqE/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="z-pYX50ZBqE"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Explanatory Videos</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="zJBLI5-vZLM">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/zJBLI5-vZLM/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="zJBLI5-vZLM"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Explanatory Videos</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="R4MnI67SxS4">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/R4MnI67SxS4/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="R4MnI67SxS4"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Long Form</span>
+            <h3>Long Form Video</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="fhrSNdv_ZPA">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/fhrSNdv_ZPA/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="fhrSNdv_ZPA"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>After Effects</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="ZLptEpqbUUQ">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/ZLptEpqbUUQ/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="ZLptEpqbUUQ"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Motion Graphics</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-video-id="FHDrILqtEzk">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background-image: url('https://img.youtube.com/vi/FHDrILqtEzk/maxresdefault.jpg'); background-size: cover; background-position: center;">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <button class="portfolio-link" data-video-id="FHDrILqtEzk"><i class="fas fa-play"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Motion Graphics</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #6c63ff, #f472b6);">
+              <i class="fas fa-hourglass-half"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Coming Soon</span>
+            <h3>Brand Story</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #38bdf8, #6c63ff);">
+              <i class="fas fa-hourglass-half"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Coming Soon</span>
+            <h3>Social Ad Campaign</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #f472b6, #ff6b9d);">
+              <i class="fas fa-hourglass-half"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Coming Soon</span>
+            <h3>Music Video Edit</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-thumb">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #0f0c29, #302b63);">
+              <i class="fas fa-hourglass-half"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-featured-tag">Coming Soon</span>
+            <h3>3D Motion Reel</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-showcase">
+            <div class="about-laptop">
+              <div class="about-laptop-screen">
+                <div class="about-screen-content">
+                  <div class="about-screen-gradient"></div>
+                  <div class="about-play-btn"><i class="fas fa-play"></i></div>
+                </div>
+              </div>
+              <div class="about-laptop-base"></div>
+              <div class="about-laptop-glow"></div>
+            </div>
+            <div class="about-float about-float-1">
+              <div class="about-float-card">
+                <i class="fas fa-film"></i>
+                <span>Showreel</span>
+              </div>
+            </div>
+            <div class="about-float about-float-2">
+              <div class="about-float-badge">
+                <i class="fas fa-star"></i>
+                <span>Featured</span>
+              </div>
+            </div>
+            <div class="about-float about-float-3">
+              <div class="about-float-thumb" style="background: linear-gradient(135deg, #6c63ff, #00d4ff);">
+                <i class="fas fa-bolt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-label">About</span>
+          <h2 class="about-title">Turning Complex Ideas Into <span class="gradient-text">Engaging Visual Stories</span></h2>
+
+          <p>I help brands, startups, and creators transform ideas into engaging visual experiences through motion design, video editing, and creative storytelling.</p>
+
+          <p>From product explainers and social media campaigns to cinematic edits and motion graphics, I create content designed to capture attention, communicate clearly, and leave a lasting impression.</p>
+
+          <p>My work combines strong design principles, storytelling, and technical execution to deliver visuals that not only look exceptional but also support business goals.</p>
+
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="about-stat-number" data-target="100">0</span>
+              <span class="about-stat-label">Videos Delivered</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat-number" data-target="2">0</span>
+              <span class="about-stat-label">Years Experience</span>
+            </div>
+          </div>
+
+          <div class="brand-trust">
+            <span class="brand-trust-label">Worked With</span>
+            <div class="brand-grid">
+              <span class="brand-chip">Bluestone</span>
+              <span class="brand-chip">Duplex Media</span>
+              <span class="brand-chip">Scalar</span>
+              <span class="brand-chip">IndianVideoSchool</span>
+              <span class="brand-chip">IICS</span>
+              <span class="brand-chip">Ultimate Gainz</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What I Do</span>
+        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+        <p class="section-desc">Professional video production and motion design services tailored to your needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-cut"></i></div>
+          <h3>Video Editing</h3>
+          <p>Professional editing with seamless transitions, color grading, and audio sweetening to tell your story effectively.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Motion Graphics</h3>
+          <p>Eye-catching animations, kinetic typography, and dynamic motion design that elevates your brand presence.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-palette"></i></div>
+          <h3>Color Grading</h3>
+          <p>Cinematic color correction and grading to establish the perfect mood and visual tone for your footage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="section process-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">How I Work</span>
+        <h2 class="section-title">My <span class="gradient-text">Process</span></h2>
+        <p class="section-desc">A structured approach to bring your vision to life from concept to final delivery.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="process-number">01</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fas fa-comments"></i></div>
+            <h3>Brief & Strategy</h3>
+            <p>We discuss your goals, target audience, and creative direction to define a clear strategy for the project.</p>
+          </div>
+        </div>
+        <div class="process-connector"><span></span></div>
+        <div class="process-step reveal">
+          <div class="process-number">02</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fas fa-pen-fancy"></i></div>
+            <h3>Script & Storyboard</h3>
+            <p>I craft a compelling narrative and visual storyboard that aligns with your brand and message.</p>
+          </div>
+        </div>
+        <div class="process-connector"><span></span></div>
+        <div class="process-step reveal">
+          <div class="process-number">03</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fas fa-film"></i></div>
+            <h3>Production & Editing</h3>
+            <p>Motion design, video editing, color grading, and sound design come together to create the final piece.</p>
+          </div>
+        </div>
+        <div class="process-connector"><span></span></div>
+        <div class="process-step reveal">
+          <div class="process-number">04</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>Review & Delivery</h3>
+            <p>You review, I refine. Once approved, the final video is delivered in your preferred format and resolution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section id="tools" class="section tools-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Tools & <span class="gradient-text">Skills</span></h2>
+        <p class="section-desc">Industry-standard software I use to deliver high-quality video content.</p>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-video"></i></div>
+          <h3>Premiere Pro</h3>
+          <div class="tool-bar"><span style="width:95%"></span></div>
+          <span class="tool-level">Expert</span>
+        </div>
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-bolt"></i></div>
+          <h3>After Effects</h3>
+          <div class="tool-bar"><span style="width:90%"></span></div>
+          <span class="tool-level">Advanced</span>
+        </div>
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-palette"></i></div>
+          <h3>DaVinci Resolve</h3>
+          <div class="tool-bar"><span style="width:85%"></span></div>
+          <span class="tool-level">Advanced</span>
+        </div>
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3>Photoshop</h3>
+          <div class="tool-bar"><span style="width:80%"></span></div>
+          <span class="tool-level">Proficient</span>
+        </div>
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-vector-square"></i></div>
+          <h3>Illustrator</h3>
+          <div class="tool-bar"><span style="width:75%"></span></div>
+          <span class="tool-level">Proficient</span>
+        </div>
+        <div class="tool-card reveal">
+          <div class="tool-icon"><i class="fas fa-cube"></i></div>
+          <h3>Blender</h3>
+          <div class="tool-bar"><span style="width:65%"></span></div>
+          <span class="tool-level">Intermediate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Have a Project? <span class="gradient-text">Let's Talk</span></h2>
+        <p class="section-desc">Tell me about your project and I'll help you figure out the best approach to achieve your goals.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sourabhbudania9@gmail.com">sourabhbudania9@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Availability</h4>
+              <p>Open to projects & collaborations</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/919772352652" target="_blank">+91 9772352652</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <input type="text" placeholder="Subject" required />
+          <textarea placeholder="Tell me about your project..." rows="6" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Sourabh Budania. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.youtube.com/@Budania-Edits" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/dreamvision.mkv/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sourabh-budania/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal -->
+  <div class="video-modal" id="videoModal">
+    <div class="video-modal-overlay" id="videoModalOverlay"></div>
+    <div class="video-modal-content">
+      <button class="video-modal-close" id="videoModalClose"><i class="fas fa-times"></i></button>
+      <div class="video-modal-frame">
+        <iframe id="videoModalIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
